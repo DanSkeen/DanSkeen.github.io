@@ -28,19 +28,43 @@
 		
 	
 		li:nth-child(1) {
-   			background-image: url('../img/full-slide/EcoCAR sim.mp4')
-
+			background: url('../img/full-slide/EcoCAR sim.mp4');
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			z-index: 11;
 			
+			video {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				width: 100%;
+				height: 100%;
+			}
+			video::-webkit-media-controls-panel {
+  				background-color: rgba(0, 0, 0, 0.75);
+				color: #fff;
+			}
+		}
 
 		li:nth-child(2)
-			background-image: url('../img/full-slide/thumb-2.jpg')
+			background: url('../img/full-slide/thumb-2.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
 			
 			
 		li:nth-child(3)
-			background-image: url('../img/full-slide/thumb-3.jpg')
+			background: url('../img/full-slide/thumb-3.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
 			
 		 
 }
+
 
 
 
